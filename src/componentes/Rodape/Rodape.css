@@ -1,0 +1,26 @@
+.footer {
+  background: #100d28;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+}
+
+.footer ul li {
+  display: flex;
+  margin-right: 32px;
+}
+.footer ul {
+  display: flex;
+  margin-right: 32px;
+}
+
+.footer ul li:last-child {
+  margin-right: 0;
+}
+
+.footer .logo img {
+  width: 200px;
+  height: 200px;
+}
